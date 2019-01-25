@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body {
+    background-image: url("squares.jpg");
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(110, 110, 110, 70%);
+    color: white;
+}
+
+.btn {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.new-btn, .clear-btn, .rand-colors, .default-color {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #6e6e6e;
+    color: #fff;
+    border: 1px solid #aeaeae;
+}
+
+.container {
+    width: 1200px;
+    height: 520px;
+    border: 3px solid #6e6e6e;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.rows {
+    display: flex;
+    width: 100%;
+}
+
+.cols {
+    flex: 1;
+}
